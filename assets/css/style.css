@@ -27,6 +27,7 @@ body {
 .head-container h1 {
   display: inline-block;
   font-size: 4rem;
+  vertical-align: middle;
  }
 
 /* MAIN  */

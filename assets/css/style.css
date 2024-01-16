@@ -12,7 +12,7 @@ body {
  /* HEADER  */
 .head-container {
   height: 120px;
-  background-color: #FFFFFF;
+  background-color: white;
   padding-left: 30px;
   margin-bottom: 80px;
   line-height: 120px;
@@ -34,5 +34,92 @@ body {
     max-width: 1200px;
     height: 1000px;
     background-color: #FFFFFF;
+    border-radius: 15px;
     margin: 0 auto;
+    padding: 20px 50px;
   }
+
+   /* NAV */
+  nav {
+    border-bottom: 3px solid #F6F8F9;
+    padding-bottom: 10px;
+  }
+
+  nav button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  nav button:hover {
+    cursor: pointer;
+  }
+
+  nav .task-btn {
+    background-color: #47ADF1;
+    color: white;
+    border: 2px solid #47ADF1;
+  }
+
+  nav .section-btn {
+    background-color: white;
+    color: #D2D7DB;
+    border: 2px solid #D2D7DB;
+  }
+
+   /* TASK LISTS  */
+    .task-lists {
+      font-size: 1.5rem;
+      line-height: 50px;
+    }
+
+    .task-lists li {
+      list-style-type: none;
+      padding-left: 5px;
+    }
+
+    .task-lists h2 {
+      font-size: 2rem;
+      margin-top: 40px;
+    }
+
+    .task-lists .mark {
+      border-radius: 50%;
+      padding: 2px 8px 5px 5px;
+      font-size: 1rem ;
+    }
+
+    .task-lists .check {
+      color: #58BCA5;
+      border: 2px solid #58BCA5;
+    }
+
+    .task-lists .cross {
+      color: red;
+      border: 2px solid red;
+    }
+
+    .task-lists .task-label {
+      font-size: .8rem;
+      font-weight: bold;
+      color: white;
+      border-radius: 15px;
+      padding: 10px 15px;
+    }
+
+    .task-lists .editorial.task-label {
+      background-color: #45ABEA;
+    }
+
+    .task-lists .q1-goal.task-label {
+      background-color: #9C72E4;
+    }
+
+    .task-lists .recruiting.task-label {
+      background-color: #64C0A9;
+    }
+
+    .task-lists .mobile.task-label {
+      background-color: #F29E33;
+    }

@@ -7,34 +7,31 @@
 body {
   background-color: #F6F8F9;
   font-family: Arial, Helvetica, sans-serif;
+  color: #414650;
 }
 
  /* HEADER  */
 .head-container {
-  height: 120px;
   background-color: white;
-  padding-left: 30px;
+  padding: 10px 20px;
   margin-bottom: 80px;
-  line-height: 120px;
 }
 
 .head-container .logo {
-  height: 80px;
-  width: 80px;
   vertical-align: middle;
 }
 
-.head-container h1 {
-  display: inline-block;
-  font-size: 4rem;
+.head-container span {
   vertical-align: middle;
+  font-weight: bold;
+  font-size: 42px;
  }
 
 /* MAIN  */
 .main-container {
-  max-width: 1200px;
+  width: 950px;
   background-color: #FFFFFF;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 0 auto;
   padding: 20px 50px 50px;
 }
@@ -46,10 +43,10 @@ nav {
 }
 
 nav button {
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 nav button:hover {
@@ -69,25 +66,22 @@ nav .section-btn {
 }
 
 /* TASK LISTS  */
-.task-lists {
-  font-size: 1.5rem;
-  line-height: 50px;
-}
-
 .task-lists li {
   list-style-type: none;
   padding-left: 5px;
+  line-height: 50px;
 }
 
-.task-lists h2 {
-  font-size: 2rem;
+.task-lists h3 {
+  font-size: 1.5rem;
   margin-top: 40px;
 }
 
 .task-lists .mark {
   border-radius: 50%;
-  padding: 2px 6px 3px 5px;
-  font-size: 1rem ;
+  padding: 3px 6px 3px 5px;
+  margin-right: 5px;
+  font-size: 0.7rem ;
 }
 
 .task-lists .check {
@@ -102,11 +96,11 @@ nav .section-btn {
 
  /* TASK LABEL  */
  .task-lists .task-label {
-  font-size: .8rem;
+  font-size: .7rem;
   font-weight: bold;
   color: white;
   border-radius: 15px;
-  padding: 10px 15px;
+  padding: 5px 10px;
 }
 
 .task-lists .editorial.task-label {
